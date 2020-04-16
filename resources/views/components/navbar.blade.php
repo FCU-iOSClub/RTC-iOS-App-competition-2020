@@ -52,10 +52,10 @@
                     <a>文件下載</a>
                     <ul>
                         <li>
-                            <a href="/doc/2019年APP移動應用創新賽v1.3.pdf" onclick="event.preventDefault();window.open('/doc/2019年APP移動應用創新賽v1.3.pdf', '_blank');">章程</a>
+                            <a href="/doc/2020年APP移動應用創新賽v1.3.pdf" onclick="event.preventDefault();window.open('/doc/2019年APP移動應用創新賽v1.3.pdf', '_blank');">章程</a>
                         </li>
                         <li>
-                            <a href="/doc/2019年APP移動應用創新賽附件1~3.pdf" onclick="event.preventDefault();window.open('/doc/2019年APP移動應用創新賽附件1~3.pdf', '_blank');">附件</a>
+                            <a href="/doc/2020年APP移動應用創新賽附件1~3.pdf" onclick="event.preventDefault();window.open('/doc/2020年APP移動應用創新賽附件1~3.pdf', '_blank');">附件</a>
                         </li>
                     </ul>
                 </li>

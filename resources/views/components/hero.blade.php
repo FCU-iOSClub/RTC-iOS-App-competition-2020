@@ -8,7 +8,7 @@
         </a>
       </div>
     </div>
-    @auth
+    {{-- @auth
       <div class="col-md-12">
            @if (Setting::get('active_news', false))
              <a class="btn" style="background-color: hsl(314, 66%, 59%);" href="#news"> 最新消息 </a>
@@ -38,6 +38,6 @@
            @endif
         </div>
       @endif
-    @endauth
+    @endauth --}}
   </div>
 </section>

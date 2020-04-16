@@ -63,7 +63,7 @@ class VerifyEmail extends Notification implements ShouldQueue
         }
 
         return (new MailMessage())
-            ->subject('2019 APP移動應用創新賽')
+            ->subject('2020 APP移動應用創新賽')
             ->greeting('親愛的參賽者您好：')
             ->line('您收到這封郵件是因為我們必須驗證您的電子郵件正確，請於 15 分鐘內完成驗證。')
             ->action('點我驗證', url(config('app.url').route('verify.process', $this->token, false)))
@@ -82,7 +82,7 @@ class VerifyEmail extends Notification implements ShouldQueue
             ->line('7.  總決賽選手集訓營：2019 年 8月中下旬，於浙江大學舉辦。')
             ->line('8.  大中華區總決賽：2019 年 9 月，於浙江大學舉辦。')
             ->line('聯繫方式')
-            ->line('比賽網站：https://rtc-2019.fcu.edu.tw')
+            ->line('比賽網站：https://rtc-2020.fcu.edu.tw')
             ->line('聯繫信箱：stacse@straighta.com.tw')
             ->line('聯繫地址：台中市西屯區文華路100號')
             ->line('逢甲大學 Apple RTC 區域教育培訓中心')

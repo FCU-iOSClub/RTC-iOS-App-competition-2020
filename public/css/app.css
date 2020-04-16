@@ -11238,11 +11238,6 @@ section {
 # Navigation Menu
 --------------------------------------------------------------*/
 
-#header {
-  background-image: url(/images/table.png?7b6bb33ebf9ae401736aea75b872c4d4);
-  background-size: cover;
-}
-
 #nav-menu-container {
   margin: 0;
   position: absolute;
@@ -11508,10 +11503,9 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .about h2 {
-  background-image: url(/images/table.png?7b6bb33ebf9ae401736aea75b872c4d4);
-  background-size: cover;
-  border-radius: 20px;
+  border-radius: 12px;
   color: white;
+  background-color: #0878a4;
 }
 
 /* ==================================================
@@ -11523,10 +11517,9 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .award h2 {
-  background-image: url(/images/table.png?7b6bb33ebf9ae401736aea75b872c4d4);
-  background-size: cover;
-  border-radius: 20px;
+  border-radius: 12px;
   color: white;
+  background-color: #0878a4;
 }
 
 /* ==================================================
@@ -11538,10 +11531,9 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .entry_requirement h2 {
-  background-image: url(/images/table.png?7b6bb33ebf9ae401736aea75b872c4d4);
-  background-size: cover;
-  border-radius: 20px;
+  border-radius: 12px;
   color: white;
+  background-color: #0878a4;
 }
 
 /* ==================================================
@@ -11553,10 +11545,9 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .work_requirement h2 {
-  background-image: url(/images/table.png?7b6bb33ebf9ae401736aea75b872c4d4);
-  background-size: cover;
-  border-radius: 20px;
+  border-radius: 12px;
   color: white;
+  background-color: #0878a4;
 }
 
 /* ==================================================
@@ -11569,10 +11560,9 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .competition_review h2 {
-  background-image: url(/images/table.png?7b6bb33ebf9ae401736aea75b872c4d4);
-  background-size: cover;
-  border-radius: 20px;
+  border-radius: 12px;
   color: white;
+  background-color: #0878a4;
 }
 
 /* ==================================================
@@ -11584,10 +11574,9 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .review_and_awards h2 {
-  background-image: url(/images/table.png?7b6bb33ebf9ae401736aea75b872c4d4);
-  background-size: cover;
-  border-radius: 20px;
+  border-radius: 12px;
   color: white;
+  background-color: #0878a4;
 }
 
 /* ==================================================
@@ -11599,10 +11588,9 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .related_statement h2 {
-  background-image: url(/images/table.png?7b6bb33ebf9ae401736aea75b872c4d4);
-  background-size: cover;
-  border-radius: 20px;
+  border-radius: 12px;
   color: white;
+  background-color: #0878a4;
 }
 
 /* ==================================================
@@ -11614,10 +11602,8 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .timeline h2 {
-  background-image: url(/images/table.png?7b6bb33ebf9ae401736aea75b872c4d4);
-  background-size: cover;
-  border-radius: 20px;
-  color: white;
+  border-radius: 12px;
+  background-color: #0878a4;
 }
 
 .timeline .stats-row {
@@ -11838,10 +11824,9 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .features h2 {
-  background-image: url(/images/table.png?7b6bb33ebf9ae401736aea75b872c4d4);
-  background-size: cover;
-  border-radius: 20px;
+  border-radius: 12px;
   color: white;
+  background-color: #0878a4;
 }
 
 .features .feature-col {
@@ -12069,9 +12054,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 #editTeamList .bg-background {
-  background-image: url(/images/table.png?7b6bb33ebf9ae401736aea75b872c4d4);
-  background-size: cover;
-  border-radius: 20px;
+  border-radius: 12px;
   color: white;
 }
 

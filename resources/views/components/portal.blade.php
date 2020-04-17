@@ -38,7 +38,7 @@
                     </div>
                     <div>
                         <h3>決賽隊伍 繳交App作品</h3>
-                        <p> 決賽隊伍請於 {{Carbon::parse(Setting::get('app_upload_deadline', '2019-7-26'), 'Asia/Taipei')}} 前上傳資料, 詳細內容請<a href="{{route('team.app.uplaod')}}">點我</a>謝謝。 </p>
+                        <p> 決賽隊伍請於 {{Carbon::parse(Setting::get('app_upload_deadline', '2019-7-26'), 'Asia/Taipei')}} 前上傳資料, 詳細內容請<a href="{{route('team.app.uplaod')}}" style="color: #3e48c1;">點我</a>謝謝。 </p>
                     </div>
                 </div>
             </div>

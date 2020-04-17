@@ -21,12 +21,16 @@ Vue.component('vue-input', require('./components/Input.vue'))
 import Datepicker from 'vuejs-datepicker';
 Vue.component('Datepicker', Datepicker)
 
-$(document).ready(function() {
+var targetProtocol = "https:";
+if (window.location.protocol != targetProtocol)
+    window.location.href = targetProtocol + window.location.href.substring(window.location.protocol.length);
+
+$(document).ready(function () {
     const app = new Vue({
         el: "#app"
     });
     $('[href="#"]').click(() => { event.preventDefault(); return false; });
-    $('a[href*="#"]:not([href="#"],.goto-target)').click(function() {
+    $('a[href*="#"]:not([href="#"],.goto-target)').click(function () {
         if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
             var target = $(this.hash);
             target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
@@ -41,7 +45,7 @@ $(document).ready(function() {
     });
     $(document).on('scroll', _.throttle((x) => {
         var Wscroll = $(window).scrollTop() + $('.nav').height();
-        $('section').each(function() {
+        $('section').each(function () {
             var ThisOffset = $(this).offset();
             if (Wscroll > ThisOffset.top && Wscroll < ThisOffset.top + $(this).outerHeight(true)) {
                 $('.menu-active').removeClass('menu-active')
@@ -61,7 +65,7 @@ $(document).ready(function() {
         time: 1000
     });
     //Scroll Top link
-    $(window).scroll(function() {
+    $(window).scroll(function () {
         if ($(this).scrollTop() > 100) {
             $(".scrolltop").fadeIn();
         } else {
@@ -69,14 +73,14 @@ $(document).ready(function() {
         }
     });
 
-    $(".scrolltop, #logo a").click(function() {
+    $(".scrolltop, #logo a").click(function () {
         $("html, body").animate({
             scrollTop: 0
         }, 1000, "easeInOutExpo");
         return false;
     });
 
-    $("[data-bg-img]").each(function() {
+    $("[data-bg-img]").each(function () {
         var $this = $(this),
             imagePath = $this.data("bg-img") || null;
         if (imagePath !== null) {
@@ -84,13 +88,13 @@ $(document).ready(function() {
         }
     });
     $.stellar.positionProperty.parallaxPosition = {
-        setTop: function(el, t) {
+        setTop: function (el, t) {
             var r = el.data("vpos") || null;
             r !== null ? el.css(r) : el.css("top", t);
         },
-        setLeft: function(el, t) {
+        setLeft: function (el, t) {
             var r = el.data("hpos") || null;
-            r !== null ? $.each(r, function(t, n) { el.css(t, n); }) : el.css("left", t);
+            r !== null ? $.each(r, function (t, n) { el.css(t, n); }) : el.css("left", t);
         }
     };
     $.stellar({

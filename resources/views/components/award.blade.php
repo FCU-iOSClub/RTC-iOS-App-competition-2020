@@ -13,28 +13,28 @@
                 <tr>
                     <td class="align-middle">特獎</td>
                     <td class="align-middle">1隊</td>
-                    <td class="align-middle">MacBook Pro  13吋 128GB<br/>價值 $41,900 乙台<br/>指導老師獎金 NT$10,000</td>
+                    <td class="align-middle">MacBook Pro  13吋 128GB<br/>價值 $41,900 乙台<br/>指導老師獎金 NT$6,000</td>
                 </tr>
                 <tr>
                     <td class="align-middle">一獎</td>
                     <td class="align-middle">1隊</td>
-                    <td class="align-middle">iPhone XR 64GB 價值 NT$26,900 乙台<br/>指導老師獎金 NT$8,000</td>
+                    <td class="align-middle"> iPad Pro 11吋 Wi-Fi 128GB 價值 $25,900 乙台<br/>指導老師獎金 NT$6,000</td>
                 </tr>
                 <tr>
                     <td class="align-middle">二獎</td>
                     <td class="align-middle">1隊</td>
-                    <td class="align-middle">iPad Air 64GB Wi-Fi 價值 NT$16,900 乙台<br/>指導老師獎金 NT$6,000</td>
+                    <td class="align-middle">iPhone SE 128GB 價值 $16,500 乙台<br/>指導老師獎金 NT$6,000</td>
                 </tr>
                 <tr>
-                    <td class="align-middle">三獎</td>
-                    <td class="align-middle">1隊</td>
-                    <td class="align-middle">Straight A商品卷 NTD$12,000<br/>指導老師獎金 NT$5,000</td>
+                    <td class="align-middle">佳作</td>
+                    <td class="align-middle">2隊</td>
+                    <td class="align-middle">Straight A商品卷 NTD$3,000</td>
                 </tr>
-                <tr>
+                {{-- <tr>
                     <td class="align-middle">優勝</td>
                     <td class="align-middle">1隊</td>
                     <td class="align-middle">Straight A商品卷 NTD$9,000<br/>指導老師獎金 NT$3000</td>
-                </tr>
+                </tr> --}}
                 {{-- <tr>
                     <td class="align-middle">中保無限+菁英獎</td>
                     <td class="align-middle">最高可達3隊</td>

@@ -60,7 +60,7 @@
                 <div class="card card-block text-center" style="cursor: pointer;" onclick="window.location='https://www.straighta.com.tw/pages/apple-edu'">
                     <div>
                         <div class="feature-icon">
-                            <span class="fa fa-apple"></span>
+                            <span class="fa fa-external-link"></span>
                         </div>
                     </div>
                     <div>

@@ -54,8 +54,8 @@
             </tbody>
         </table>
         <br>
-        <h3 style="display: inline;font-size: 45px;color: #3e48c1;">決賽證明</h3>&nbsp&nbsp<span style="color: white;font-size: 24px;">經主辦單位審核進入決賽之20名隊伍，隊伍成員每人皆可獲得決賽證明書乙份。</span>
+        <h3 style="display: inline;font-size: 45px;color: #5FE7F5;">決賽證明</h3>&nbsp&nbsp<span style="color: white;font-size: 24px;">經主辦單位審核進入決賽之20名隊伍，隊伍成員每人皆可獲得決賽證明書乙份。</span>
         <br><br><br><br>
-        <h3 style="display: inline;font-size: 45px;color: #3e48c1;">參賽證明</h3>&nbsp&nbsp<span style="color: white;font-size: 24px;">經主辦單位審核進入初賽並完成繳交企劃書之隊伍，隊伍成員每人皆可獲得參賽證明書乙份。</span>
+        <h3 style="display: inline;font-size: 45px;color: #5FE7F5;">參賽證明</h3>&nbsp&nbsp<span style="color: white;font-size: 24px;">經主辦單位審核進入初賽並完成繳交企劃書之隊伍，隊伍成員每人皆可獲得參賽證明書乙份。</span>
     </div>
 </section>

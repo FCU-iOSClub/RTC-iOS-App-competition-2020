@@ -85,7 +85,7 @@
         </div>
         <div class="row justify-content-around">
             <div class="feature-col col-12 col-md-12">
-                <div class="card card-block text-center" style="cursor: pointer;" onclick="window.open= '/doc/2019 APP移動應用創新賽特獎企劃書觀摩.pdf' ">
+                <div class="card card-block text-center" style="cursor: pointer;" onclick="window.open('/doc/2019 APP移動應用創新賽特獎企劃書觀摩.pdf') ">
                     <div>
                         <div class="feature-icon">
                             <span class="fas fa-book"></span>

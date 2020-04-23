@@ -43,7 +43,20 @@
             </div>
         </div>
         <div class="row justify-content-around">
-            <div class="feature-col col-12 col-md-6">
+            <div class="feature-col col-12 col-md-4">
+                <div class="card card-block text-center" style="cursor: pointer;" onclick="window.location= 'https://www.straighta.com.tw/pages/app' ">
+                    <div>
+                        <div class="feature-icon">
+                            <span class="fas fa-trophy"></span>
+                        </div>
+                    </div>
+                    <div>
+                        <h3>報名註冊</h3>
+                        <p> 將在{{Carbon::parse(Setting::get('register_deadline', '2019-6-30 23:59:59'), 'Asia/Taipei')}}截止，參賽隊伍所有成員皆須完整填寫資料，團隊成員於報名截止日後，不得更換。</p>
+                    </div>
+                </div>
+            </div>
+            <div class="feature-col col-12 col-md-4">
                 <div class="card card-block text-center" style="cursor: pointer;" onclick="window.location= 'https://www.straighta.com.tw/pages/app' ">
                     <div>
                         <div class="feature-icon">
@@ -56,7 +69,7 @@
                     </div>
                 </div>
             </div>
-            <div class="feature-col col-12 col-md-6">
+            <div class="feature-col col-12 col-md-4">
                 <div class="card card-block text-center" style="cursor: pointer;" onclick="window.location='https://www.straighta.com.tw/pages/apple-edu'">
                     <div>
                         <div class="feature-icon">
@@ -64,7 +77,7 @@
                         </div>
                     </div>
                     <div>
-                        <h3>StraightA購機優惠專區</h3>
+                        <h3>Apple購機優惠專區</h3>
                         {{-- <p> 決賽隊伍請於 {{Carbon::parse(Setting::get('app_upload_deadline', '2019-7-26'), 'Asia/Taipei')}} 前上傳資料, 詳細內容請<a href="{{route('team.app.uplaod')}}" style="color: #3e48c1;">點我</a>謝謝。 </p> --}}
                     </div>
                 </div>

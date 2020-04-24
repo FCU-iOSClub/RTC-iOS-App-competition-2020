@@ -13,7 +13,7 @@
                 <a>報名截止</a>
               </div>
               <div class="circle-overlay">
-                <a>參賽隊伍皆須在4⽉20⽇～5⽉25⽇通過大賽網站報名註冊，同時須完整填寫報名資料。至多三名學生以及二名指導老師</a>
+                <a>參賽隊伍皆須在4⽉20⽇～{{Carbon::parse(Setting::get('register_deadline', '2020-5-25'), 'Asia/Taipei')->month}}⽉{{Carbon::parse(Setting::get('register_deadline', '2019-5-15'), 'Asia/Taipei')->day}}⽇通過大賽網站報名註冊，同時須完整填寫報名資料。至多三名學生以及二名指導老師</a>
 
                 {{--
                 <a>4⽉01⽇～5⽉15⽇填寫報名資料</a> 

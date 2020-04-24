@@ -2,8 +2,8 @@
     <div class="container-fluid">
         <h2 class="text-center display-4">傳送門</h2>
         <div class="row justify-content-around">
-            <<div class="feature-col col-12 col-md-12">
-                <div class="card card-block text-center" style="cursor: pointer;" onclick="window.location= {{route('register')}} ">
+            <div class="feature-col col-12 col-md-12">
+                <div class="card card-block text-center" style="cursor: pointer;" onclick="window.location= '{{route('register')}}' ">
                     <div>
                         <div class="feature-icon">
                             <span class="fas fa-link"></span>

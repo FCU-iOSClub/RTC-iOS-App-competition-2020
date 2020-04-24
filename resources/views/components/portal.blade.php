@@ -2,6 +2,21 @@
     <div class="container-fluid">
         <h2 class="text-center display-4">傳送門</h2>
         <div class="row justify-content-around">
+            <<div class="feature-col col-12 col-md-12">
+                <div class="card card-block text-center" style="cursor: pointer;" onclick="window.location= 'https://www.straighta.com.tw/pages/app' ">
+                    <div>
+                        <div class="feature-icon">
+                            <span class="fas fa-link"></span>
+                        </div>
+                    </div>
+                    <div>
+                        <h3>報名註冊</h3>
+                        <p> 將在{{Carbon::parse(Setting::get('register_deadline', '2019-6-30 23:59:59'), 'Asia/Taipei')}}截止，參賽隊伍所有成員皆須完整填寫資料，團隊成員於報名截止日後，不得更換。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-around">
             <div class="feature-col col-12 col-md-4">
                 <div class="card card-block text-center" style="cursor: pointer;" onclick="window.location='{{route('team.proposal.uplaod')}}'">
                     <div>
@@ -47,25 +62,25 @@
                 <div class="card card-block text-center" style="cursor: pointer;" onclick="window.location= 'https://www.straighta.com.tw/pages/app' ">
                     <div>
                         <div class="feature-icon">
-                            <span class="fas fa-link"></span>
-                        </div>
-                    </div>
-                    <div>
-                        <h3>報名註冊</h3>
-                        <p> 將在{{Carbon::parse(Setting::get('register_deadline', '2019-6-30 23:59:59'), 'Asia/Taipei')}}截止，參賽隊伍所有成員皆須完整填寫資料，團隊成員於報名截止日後，不得更換。</p>
-                    </div>
-                </div>
-            </div>
-            <div class="feature-col col-12 col-md-4">
-                <div class="card card-block text-center" style="cursor: pointer;" onclick="window.location= 'https://www.straighta.com.tw/pages/app' ">
-                    <div>
-                        <div class="feature-icon">
                             <span class="fas fa-trophy"></span>
                         </div>
                     </div>
                     <div>
-                        <h3>歷屆得獎作品</h3>
+                        <h3>歷屆得獎作品觀摩</h3>
                         {{-- <p> 凡進入決賽隊伍，{{Carbon::parse(Setting::get('register_form_deadline', '2019-6-30'), 'Asia/Taipei')}} 前須提交參賽隊伍所在學校系所用印後的報名表(請至網頁上6/15比賽流程內下載附件)，文件需整併成一個PDF檔，不限制檔案名稱，任一人未於時間內繳交者，則取消該隊決賽資格。</p> --}}
+                    </div>
+                </div>
+            </div>
+            <div class="feature-col col-12 col-md-4">
+                <div class="card card-block text-center" style="cursor: pointer;" onclick="window.open('/doc/2019 APP移動應用創新賽特獎企劃書觀摩.pdf') ">
+                    <div>
+                        <div class="feature-icon">
+                            <span class="fas fa-book"></span>
+                        </div>
+                    </div>
+                    <div>
+                        <h3>特獎企劃書範例觀摩</h3>
+                        {{-- <p> 將在{{Carbon::parse(Setting::get('register_deadline', '2019-6-30 23:59:59'), 'Asia/Taipei')}}截止，參賽隊伍所有成員皆須完整填寫資料，團隊成員於報名截止日後，不得更換。</p> --}}
                     </div>
                 </div>
             </div>
@@ -79,21 +94,6 @@
                     <div>
                         <h3>Apple購機優惠專區</h3>
                         {{-- <p> 決賽隊伍請於 {{Carbon::parse(Setting::get('app_upload_deadline', '2019-7-26'), 'Asia/Taipei')}} 前上傳資料, 詳細內容請<a href="{{route('team.app.uplaod')}}" style="color: #3e48c1;">點我</a>謝謝。 </p> --}}
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row justify-content-around">
-            <div class="feature-col col-12 col-md-12">
-                <div class="card card-block text-center" style="cursor: pointer;" onclick="window.open('/doc/2019 APP移動應用創新賽特獎企劃書觀摩.pdf') ">
-                    <div>
-                        <div class="feature-icon">
-                            <span class="fas fa-book"></span>
-                        </div>
-                    </div>
-                    <div>
-                        <h3>特獎企劃書範例觀摩</h3>
-                        {{-- <p> 將在{{Carbon::parse(Setting::get('register_deadline', '2019-6-30 23:59:59'), 'Asia/Taipei')}}截止，參賽隊伍所有成員皆須完整填寫資料，團隊成員於報名截止日後，不得更換。</p> --}}
                     </div>
                 </div>
             </div>

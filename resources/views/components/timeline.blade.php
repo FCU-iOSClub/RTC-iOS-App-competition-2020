@@ -30,7 +30,7 @@
             <span class="stats-no" style="background-color: hsl(314, 66%, 59%)"><a>{{Carbon::parse(Setting::get('proposal_deadline', '2018-6-10'), 'Asia/Taipei')->month}}/{{Carbon::parse(Setting::get('proposal_deadline', '2018-6-10'), 'Asia/Taipei')->day}}</a></span>
             <div class="circle-overflow" data-toggle="modal-hide" data-target="#date5-23">
               <div class="circle-content">
-                <a>計劃書
+                <a>企劃書
                   <br/>繳交截止</a>
               </div>
               <div class="circle-overlay">

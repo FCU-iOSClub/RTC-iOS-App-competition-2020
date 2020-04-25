@@ -27,11 +27,11 @@
           <div class="card card-block">
           </div>
         </div>
-        <div class="col-6 col-lg-3 col-sm-6 col-xl-3">
+        {{-- <div class="col-6 col-lg-3 col-sm-6 col-xl-3">
           <div class="card card-block">
             <a href="http://shop.opro9.com/v2/official" class="sponsors oprog"></a>
           </div>
-        </div>
+        </div> --}}
         {{-- <div class="col-6 col-lg-3 col-md-6 col-xl-3">
           <div class="card card-block">
             <a href="https://www.studioa.com.tw/categories/uag" class="sponsors uag" style="transform: scale(0.6)"></a>
@@ -96,11 +96,11 @@
             <a href="http://www.yingdda.com/" class="sponsors jbl"></a>
           </div>
         </div> --}}
-        <div class="col-4 col-lg-2 col-md-4 col-xl-2">
+        {{-- <div class="col-4 col-lg-2 col-md-4 col-xl-2">
           <div class="card card-block">
             <a href="https://mytracmo.com/pages/tracmo-taiwan" class="sponsors tracmo"></a>
           </div>
-        </div>
+        </div> --}}
        <!--  <div class="col-12 col-lg-4 col-md-6 col-xl-3">
           <div class="card card-block">
             <a href="https://mytracmo.com/pages/tracmo-taiwan" class="sponsors tracmo"></a>

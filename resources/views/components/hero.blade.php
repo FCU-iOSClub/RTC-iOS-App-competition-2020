@@ -1,5 +1,5 @@
 <section class="hero" data-stellar-background-ratio="0.4">
-  <div class="container text-center">
+  <div id="herobakcground">
     <div class="row">
       <div class="col-md-12">
         <div class="d-none d-md-block hero-brand"></div>

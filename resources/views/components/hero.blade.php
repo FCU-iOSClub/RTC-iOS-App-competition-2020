@@ -2,11 +2,13 @@
   <div class="container text-center">
     <div class="row">
       <div class="col-md-12">
-        <a class="hero-brand" title="Home">
+        <div class="d-none d-md-block hero-brand"></div>
+        <div class="d-md-none hero-brand-mobile"></div>
+        {{-- <a class="hero-brand" title="Home">
           
           <img class="d-none d-md-block" src="/images/banner-desktop.png" width="100%" alt="">
           <img class="d-md-none" src="/images/banner-mobile.png" width="100%" alt="">
-        </a>
+        </a> --}}
       </div>
     </div>
     {{-- @auth

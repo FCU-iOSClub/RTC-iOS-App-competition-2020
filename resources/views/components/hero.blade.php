@@ -1,6 +1,6 @@
 <section class="hero" data-stellar-background-ratio="0.4">
   <div id="herobackground">
-    <div class="row">
+    <div class="row" style="margin-left: 0;margin-right: 0;">
       <div class="col-md-12">
         <div class="d-none d-md-block hero-brand"></div>
         <div class="d-md-none hero-brand-mobile"></div>

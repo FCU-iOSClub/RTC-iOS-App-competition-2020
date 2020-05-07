@@ -34,6 +34,11 @@ mix.scripts([
 
 mix.copy('resources/assets/img/fcu.png', 'public/images/fcu.png');
 mix.copy('resources/assets/img/banner.png', 'public/images/banner.png');
+mix.copy('resources/assets/img/lessons/5.11.png', 'public/images/5.11.png');
+mix.copy('resources/assets/img/lessons/5.12.png', 'public/images/5.12.png');
+mix.copy('resources/assets/img/lessons/5.13.png', 'public/images/5.13.png');
+mix.copy('resources/assets/img/lessons/5.14.png', 'public/images/5.14.png');
+mix.copy('resources/assets/img/lessons/5.15.png', 'public/images/5.15.png');
 mix.copy('resources/assets/img/banner-desktop.png', 'public/images/banner-desktop.png');
 mix.copy('resources/assets/img/banner-mobile.png', 'public/images/banner-mobile.png');
 mix.copy('node_modules/startbootstrap-coming-soon/img/bg-mobile-fallback.jpg', 'public/images/bg-mobile-fallback.jpg');

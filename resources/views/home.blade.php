@@ -13,6 +13,7 @@
 @include('components.award')
 @include('components.portal')
 @include('components.lessons')
+@include('components.longtermlessons')
 @include('components.entry_requirement')
 @include('components.work_requirement')
 @include('components.competition_review')

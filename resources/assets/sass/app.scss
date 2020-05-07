@@ -527,8 +527,18 @@ body.mobile-nav-active {
     display: none;
 }
 
-
-
+/* ==================================================
+  Lesson Styling
+================================================== */
+.lessons {
+    h2 {
+        // background-image: url(../img/table.png);
+        // background-size: cover; 
+        border-radius: 12px;
+        color: white;
+        background-color: $primary;
+    }
+}
 
 /* ==================================================
   About Styling

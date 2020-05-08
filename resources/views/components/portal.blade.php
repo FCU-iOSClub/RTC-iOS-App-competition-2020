@@ -105,7 +105,7 @@
                         <p style="margin-top:0px;margin-bottom:0px;font-size: 1.72rem">大中華區總決賽</p>
                         <p style="margin-top:0px;margin-bottom:0px;">『2020年中國高校計算機大賽-移動應用創新賽』</p>
                         <p style="margin-top:0px;margin-bottom:0px;">大中華區總決賽的第一手課程與最新消息，請申請微信帳號，掃碼訂閱。</p>
-                        <img src="/images/qrcode.jpg" alt="" title="公眾號條碼">
+                        <img style="padding-top: 30px" src="/images/qrcode.jpg" alt="" title="公眾號條碼">
                     </div>
                 </div>
             </div>

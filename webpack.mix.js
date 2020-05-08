@@ -44,6 +44,7 @@ mix.copy('resources/assets/img/lessons/term2.png', 'public/images/term2.png');
 mix.copy('resources/assets/img/lessons/term3.png', 'public/images/term3.png');
 mix.copy('resources/assets/img/lessons/term4.png', 'public/images/term4.png');
 mix.copy('resources/assets/img/lessons/term5.png', 'public/images/term5.png');
+mix.copy('resources/assets/img/lessons/qrcode.jpg', 'public/images/qrcode.jpg');
 mix.copy('resources/assets/img/banner-desktop.png', 'public/images/banner-desktop.png');
 mix.copy('resources/assets/img/banner-mobile.png', 'public/images/banner-mobile.png');
 mix.copy('node_modules/startbootstrap-coming-soon/img/bg-mobile-fallback.jpg', 'public/images/bg-mobile-fallback.jpg');

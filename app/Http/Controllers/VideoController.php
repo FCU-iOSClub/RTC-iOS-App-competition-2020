@@ -7,7 +7,7 @@ use Artisan;
 use Carbon\Carbon;
 use Permission;
 
-class HomeController extends Controller
+class VideoController extends Controller
 {
     /**
      * Create a new controller instance.

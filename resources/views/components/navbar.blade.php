@@ -110,7 +110,7 @@
         <li>
             <a href="{{ route('register') }}">報名</a>
         </li>@endif
-        @endauth {{$slot}} {{--
+        @endauth {{--
         <li class="menu-has-children">
             <i class="fas fa-chevron-down"></i>
             <a href="#">Drop Down</a>

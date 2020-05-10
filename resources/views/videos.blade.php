@@ -17,7 +17,7 @@
     <div class="container-fluid">
         <h2 class="text-center display-4">影音專區</h2>
         <div id="videoview">
-            <video id="videocontent" controls>
+            <video id="videocontent" controlsList="nodownload" controls>
                 <source src="/mp4/創新設計思考.mp4" type="video/mp4">
             </video>
         </div>

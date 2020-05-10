@@ -13,6 +13,11 @@
         <li>
             <a href="{{route('home')}}#about">簡介</a>
         </li>
+        @auth
+        <li>
+            <a href="{{route('videos')}}">影音專區</a>
+        </li>
+        @endauth
         <li>
             <a href="{{route('home')}}#timeline">競賽</a>
         </li>

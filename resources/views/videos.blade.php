@@ -7,6 +7,45 @@
 @endsection
 
 @section('content')
+@include('components.navbar')
+<script>
+    function changeVideosource(videoname) {
+        var tag = document.getElementById('videocontent');
+        tag.src = "/storage/" + videoname + ".mp4";
+    }
+</script>
+<div class="container-fluid">
+    <h2 class="text-center display-4">影音專區</h2>
+    <div id="videoview">
+        <video id="videocontent" controls>
+            <source src="/mp4/創新設計思考.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div id="tablewrapper">
+        <div id="header" >影片列表</div>
+        <div id="tablescroll">
+            <table class="table table-hover bg-dark text-white posotion:relative">
+                <tbody>
+                    <tr>
+                        <th scope="row"><a href="javascript:changeVideosource('20200511')">創新設計思考</a></th>
+                    </tr>
+                    <tr>
+                        <th scope="row">Comming soon...</th>
+                    </tr>
+                    <tr>
+                        <th scope="row">Comming soon...</th>
+                    </tr>
+                    <tr>
+                        <th scope="row">Comming soon...</th>
+                    </tr>
+                    <tr>
+                        <th scope="row">Comming soon...</th>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
 @include('components.sponsors')
 @include('components.footer') 
 @endsection

@@ -11,6 +11,7 @@
 |
 */
 Route::get('/', 'HomeController@index')->name('home');
+Route::get('/videos', 'VideoController@index')->name('videos');
 Auth::routes();
 Route::get('/coming-soon', function () {
     return view('coming-soon');

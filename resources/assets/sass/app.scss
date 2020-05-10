@@ -1005,36 +1005,43 @@ body.mobile-nav-active {
 /* ==================================================
   Video Styling
 ================================================== */
-
-#videoview {
-    width:inherit;
-}
-video {
-    width:inherit;
-    source {
+.videos {
+    h2 {
+        border-radius: 12px;
+        color: white;
+        background-color: $primary;
+    }
+    #videoview {
         width:inherit;
     }
+    video {
+        width:inherit;
+        source {
+            width:inherit;
+        }
+    }
+    #tablewrapper {
+        padding-top: 30px;
+        #header {
+            height:47px;
+            background-color:#212529;
+            line-height:47px;
+            vertical-align:middle;
+            text-align:center;
+            color:white;
+        }
+        #ablescroll {
+            overflow-y : scroll;
+        }
+        tbody {
+            text-align:center;
+        }
+        a {
+            color: white;
+        }
+    }
 }
-#tablewrapper {
-    padding-top: 30px;
-    #header {
-        height:47px;
-        background-color:#212529;
-        line-height:47px;
-        vertical-align:middle;
-        text-align:center;
-        color:white;
-    }
-    #ablescroll {
-        overflow-y : scroll;
-    }
-    tbody {
-        text-align:center;
-    }
-    a {
-        color: white;
-    }
-}
+
 
 
 

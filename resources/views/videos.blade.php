@@ -30,7 +30,7 @@
                             <th scope="row"><a href="javascript:changeVideosource('20200511')">創新設計思考</a></th>
                         </tr>
                         <tr>
-                            <th scope="row">Comming soon...</th>
+                            <th scope="row"><a href="javascript:changeVideosource('20200512')">產品企劃實務</a></th>
                         </tr>
                         <tr>
                             <th scope="row">Comming soon...</th>

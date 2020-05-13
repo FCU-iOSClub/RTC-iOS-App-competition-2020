@@ -7,6 +7,19 @@
 @endsection
 
 @section('content')
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-164379399-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-164379399-1');
+</script>
+
+
 <script>
     function changeVideosource(videoname) {
         var tag = document.getElementById('videocontent');
@@ -33,7 +46,7 @@
                             <th scope="row"><a href="javascript:changeVideosource('20200512')">產品企劃實務</a></th>
                         </tr>
                         <tr>
-                            <th scope="row">Comming soon...</th>
+                            <th scope="row"><a href="javascript:changeVideosource('20200513')">市場行銷策略</a></th>
                         </tr>
                         <tr>
                             <th scope="row">Comming soon...</th>

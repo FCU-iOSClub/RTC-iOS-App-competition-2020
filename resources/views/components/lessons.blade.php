@@ -20,7 +20,9 @@
                 </a>
             </div>
             <div class="stats-col text-center col-8 col-sm-5 col-md-3 col-xl-2">
-                <img src="/images/5.14.png" alt="">
+                <a href={{ route('videos') }}>
+                    <img src="/images/5.14.png" alt="">
+                </a>
             </div>
             <div class="stats-col text-center col-8 col-sm-5 col-md-3 col-xl-2">
                 <img src="/images/5.15.png" alt="">

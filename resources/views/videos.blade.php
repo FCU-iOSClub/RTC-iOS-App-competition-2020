@@ -49,7 +49,7 @@
                             <th scope="row"><a href="javascript:changeVideosource('20200513')">市場行銷策略</a></th>
                         </tr>
                         <tr>
-                            <th scope="row">Comming soon...</th>
+                            <th scope="row"><a href="javascript:changeVideosource('20200514')">Pages 基礎入門</a>.</th>
                         </tr>
                         <tr>
                             <th scope="row">Comming soon...</th>

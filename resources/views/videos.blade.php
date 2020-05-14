@@ -34,6 +34,7 @@
                 <source src="/storage/20200511.mp4" type="video/mp4">
             </video>
         </div>
+        {{-- <iframe id="YT" style="width: inherit; height: 56vw;" src="https://www.youtube.com/embed/ZSOnM7Yn2j8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> --}}
         <div id="tablewrapper">
             <div id="header" >影片列表</div>
             <div id="tablescroll">
@@ -49,10 +50,10 @@
                             <th scope="row"><a href="javascript:changeVideosource('20200513')">市場行銷策略</a></th>
                         </tr>
                         <tr>
-                            <th scope="row"><a href="javascript:changeVideosource('20200514')">Pages 基礎入門</a>.</th>
+                            <th scope="row"><a href="javascript:changeVideosource('20200514')">Pages 基礎入門</a></th>
                         </tr>
                         <tr>
-                            <th scope="row">Comming soon...</th>
+                            <th scope="row"><a href="javascript:changeVideosource('20200515')">iMovie 基礎入門</a></th>
                         </tr>
                     </tbody>
                 </table>

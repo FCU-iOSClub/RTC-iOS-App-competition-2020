@@ -45,11 +45,8 @@
     <div class="container-fluid">
         <h2 class="text-center display-4">影音專區</h2>
         <div id="videoview">
-            <video id="videocontent" controlsList="nodownload" controls>
-                <source src="/storage/20200511.mp4" type="video/mp4">
-            </video>
+            <iframe id="YT" style="width: inherit; height: 56vw;" src="https://www.youtube.com/embed/ZSOnM7Yn2j8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
-        <iframe id="YT" style="width: inherit; height: 56vw;" src="https://www.youtube.com/embed/ZSOnM7Yn2j8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <div id="tablewrapper">
             <button class="collapsible">說明會影片</button>
             <div class="content">

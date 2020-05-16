@@ -18,20 +18,6 @@
 
   gtag('config', 'UA-164379399-1');
 
-  var coll = document.getElementsByClassName("collapsible");
-    var i;
-
-    for (i = 0; i < coll.length; i++) {
-    coll[i].addEventListener("click", function() {
-        this.classList.toggle("active");
-        var content = this.nextElementSibling;
-        if (content.style.maxHeight){
-        content.style.maxHeight = null;
-        } else {
-        content.style.maxHeight = content.scrollHeight + "px";
-        } 
-    });
-    }
 </script>
 
 
@@ -48,32 +34,56 @@
             <iframe id="YT" style="width: inherit; height: 56vw;" src="https://www.youtube.com/embed/ZSOnM7Yn2j8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <div id="tablewrapper">
-            <button class="collapsible">說明會影片</button>
-            <div class="content">
-                <div>
-                    <a href="javascript:changeVideosource('ZSOnM7Yn2j8')" style="">5/8說明會</a>
+            <div class="accordion" id="accordionExample">
+                <div class="card">
+                  <div style="background-color: #777;" class="card-header" id="headingOne">
+                    <h5 class="mb-0">
+                      <button style="color:white;" class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        線上說明會影片
+                      </button>
+                    </h5>
+                  </div>
+              
+                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div class="card-body" style="padding:0px;text-align: center;">
+                      <div style="text-align:center;border-bottom: 1px white solid;background-color:#564e4e;">
+                          <a href="javascript:changeVideosource('ZSOnM7Yn2j8')" style="line-height: 50px;color:white">5/8說明會</a>
+                      </div>
+                      <div style="text-align:center;border-bottom: 1px  solid;background-color:#564e4e;">
+                        <a href="javascript:changeVideosource('R7a8Ltniej4')" style="line-height: 50px;color:white">5/13說明會</a>
+                    </div>
+                    </div>
+                  </div>
                 </div>
-                <div>
-                    <a href="javascript:changeVideosource('R7a8Ltniej4')" style="">5/13說明會</a>
-                </div>
-            </div>
-            <button class="collapsible">官方課程影片</button>
-            <div class="content">
-                <div>
-                    <a href="javascript:changeVideosource('yB1hAR7T-sw')" style="">創新設計思考</a>
-                </div>
-                <div>
-                    <a href="javascript:changeVideosource('F6SLju7-PR0')" style="">產品企劃實務</a>
-                </div>
-                <div>
-                    <a href="javascript:changeVideosource('TC3Yze2546c')" style="">市場行銷策略</a>
-                </div>
-                <div>
-                    <a href="javascript:changeVideosource('kiC_xGMuGnE')" style="">Pages 基礎入門</a>
-                </div>
-                <div>
-                    <a href="javascript:changeVideosource('FVXYfH_GNm4')" style="">iMovie 基礎入門</a>
-                </div>
+                <div class="card">
+                    <div style="background-color: #777;" class="card-header" id="headingOne">
+                      <h5 class="mb-0">
+                        <button style="color:white;" class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          線上課程影片
+                        </button>
+                      </h5>
+                    </div>
+                
+                    <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                      <div class="card-body" style="padding:0px;text-align: center;">
+                        <div style="text-align:center;border-bottom: 1px white solid;background-color:#564e4e;">
+                            <a href="javascript:changeVideosource('yB1hAR7T-sw')" style="line-height: 50px;color:white">創新設計思考</a>
+                        </div>
+                        <div style="text-align:center;border-bottom: 1px white solid;background-color:#564e4e;">
+                          <a href="javascript:changeVideosource('F6SLju7-PR0')" style="line-height: 50px;color:white">產品企劃實務</a>
+                        </div>
+                        <div style="text-align:center;border-bottom: 1px white solid;background-color:#564e4e;">
+                            <a href="javascript:changeVideosource('TC3Yze2546c')" style="line-height: 50px;color:white">市場行銷策略</a>
+                        </div>
+                        <div style="text-align:center;border-bottom: 1px white solid;background-color:#564e4e;">
+                            <a href="javascript:changeVideosource('kiC_xGMuGnE')" style="line-height: 50px;color:white">Pages 基礎入門</a>
+                        </div>
+                        <div style="text-align:center;border-bottom: 1px  solid;background-color:#564e4e;">
+                            <a href="javascript:changeVideosource('FVXYfH_GNm4')" style="line-height: 50px;color:white">iMovie 基礎入門</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
             </div>
         </div>
     </div>

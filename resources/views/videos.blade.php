@@ -58,7 +58,7 @@
                 <div class="card">
                     <div style="background-color: #777;" class="card-header" id="headingOne">
                       <h5 class="mb-0">
-                        <button style="color:white;" class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                        <button style="all:unset;color:white;" class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
                           線上課程影片
                         </button>
                       </h5>

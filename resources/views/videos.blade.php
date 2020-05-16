@@ -57,14 +57,14 @@
                 </div>
                 <div class="card">
                     <div style="background-color: #777;" class="card-header" id="headingOne">
-                      <h5 class="mb-0">
+                      <a class="mb-0">
                         <button style="all:unset;color:white;" class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
                           線上課程影片
                         </button>
-                      </h5>
+                      </a>
                     </div>
                 
-                    <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                       <div class="card-body" style="padding:0px;text-align: center;">
                         <div style="text-align:center;border-bottom: 1px white solid;background-color:#564e4e;">
                             <a href="javascript:changeVideosource('yB1hAR7T-sw')" style="line-height: 50px;color:white">創新設計思考</a>

@@ -22,6 +22,6 @@
         </div>
     </div>
     <div class="text-center">
-        <h3 style="text-align: center;">(預計7~8月陸續開課，請密切關注)<a href="https://www.youtube.com/channel/UClBCSE9ltftKWuxruCpTxfw/" style="color: #5FE7F5">官方YOUTUBE頻道</a></h3>
+        <h3 style="text-align: center;">預計7~8月陸續開課，請密切關注 <a href="https://www.youtube.com/channel/UClBCSE9ltftKWuxruCpTxfw/" style="color: #5FE7F5">官方YOUTUBE頻道</a></h3>
     </div>
 </section>

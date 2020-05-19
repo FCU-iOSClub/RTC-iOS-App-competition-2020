@@ -19,6 +19,11 @@
             <div class="stats-col text-center col-8 col-sm-5 col-md-3 col-xl-2">
                 <img src="/images/5.15.png" alt="">
             </div>
+            <div class="stats-col text-center col-12 col-sm-12 col-md-12 col-xl-12">
+                <div class="text-center">
+                    <h3 style="text-align: center;padding-top:40px"><a href="https://www.youtube.com/channel/UClBCSE9ltftKWuxruCpTxfw/" style="color: #5FE7F5">官方YOUTUBE頻道</a></h3>
+                </div>
+            </div>
         </div>
     </div>
 </section>

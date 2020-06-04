@@ -19,7 +19,7 @@
         </div>
         <div class="col-12 col-lg-4 col-md-12 col-xl-4">
           <div class="card card-block">
-            <a href="https://rhinoshield.tw" class="sponsors rhino" style="transform: scale(1.1)"></a>
+            <a href="https://rhinoshield.tw" class="sponsors rhino" style="transform: scale(1.25)"></a>
           </div>
         </div>
         
@@ -31,17 +31,17 @@
         <div class="col-12 col-lg-4 col-sm-12 col-xl-4">
            {{-- <a href="http://smarthome.myvita.com.tw" class="sponsors litenet"></a> --}}
           <div class="card card-block">
-            <a href="https://tw.j5create.com/" class="sponsors j5create"></a>
+            <a href="https://tw.j5create.com/" class="sponsors j5create" style="transform: scale(1.5)"></a>
           </div>
         </div>
         <div class="col-12 col-lg-4 col-sm-12 col-xl-4">
           <div class="card card-block">
-            <a href="https://www.moshi.com/tw" class="sponsors moshi"></a>
+            <a href="https://www.moshi.com/tw" class="sponsors moshi" style="transform: scale(1.5)"></a>
           </div>
         </div>
         <div class="col-12 col-lg-4 col-sm-12 col-xl-4">
           <div class="card card-block">
-            <a href="https://www.cvicloud.com/zh-cht/" class="sponsors cvicloud" style="transform: scale(1.3);"></a>
+            <a href="https://www.cvicloud.com/zh-cht/" class="sponsors cvicloud" style="transform: scale(1.6);"></a>
           </div>
         </div>
 
@@ -51,37 +51,37 @@
         </div> --}}
         <div class="col-6 col-lg-3 col-md-6 col-xl-3">
           <div class="card card-block">
-            <a href="http://www.jbl-tw.com/" class="sponsors jbl" style="transform: scale(0.7)"></a>
+            <a href="http://www.jbl-tw.com/" class="sponsors jbl" style="transform: scale(0.5)"></a>
           </div>
         </div>
         <div class="col-6 col-lg-3 col-md-6 col-xl-3">
           <div class="card card-block">
-            <a href="https://tw.pqigroup.com/" class="sponsors pqi" style="transform: scale(0.7)"></a>
+            <a href="https://tw.pqigroup.com/" class="sponsors pqi" style="transform: scale(0.5)"></a>
           </div>
         </div>
         <div class="col-6 col-lg-3 col-md-6 col-xl-3">
           <div class="card card-block">
-            <a href="http://www.elecom.com.tw/" class="sponsors elecom"></a>
+            <a href="http://www.elecom.com.tw/" class="sponsors elecom" ></a>
           </div>
         </div>
         <div class="col-6 col-lg-3 col-md-6 col-xl-3">
           <div class="card card-block">
-            <a href="https://www.spigen.com.tw/" class="sponsors spigen"></a>
+            <a href="https://www.spigen.com.tw/" class="sponsors spigen" style="transform: scale(0.5)"></a>
           </div>
         </div>
         <div class="col-6 col-lg-3 col-md-6 col-xl-3">
           <div class="card card-block">
-            <a href="https://tw.gigastone.com/" class="sponsors gigastone"></a>
+            <a href="https://tw.gigastone.com/" class="sponsors gigastone" style="transform: scale(0.7)"></a>
           </div>
         </div>
         <div class="col-6 col-lg-3 col-md-6 col-xl-3">
           <div class="card card-block">
-            <a href="http://vago.global/" class="sponsors vago" style="transform: scale(1.2)"></a>
+            <a href="http://vago.global/" class="sponsors vago" style="transform: scale(0.8)"></a>
           </div>
         </div>
         <div class="col-6 col-lg-3 col-md-6 col-xl-3">
           <div class="card card-block">
-            <a href="http://smarthome.myvita.com.tw/" class="sponsors infinite" style="transform: scale(0.7)"></a>
+            <a href="http://smarthome.myvita.com.tw/" class="sponsors infinite" style="transform: scale(0.4)"></a>
           </div>
         </div>
         {{-- <div class="col-4 col-lg-2 col-md-4 col-xl-2">
@@ -91,7 +91,7 @@
         </div> --}}
         <div class="col-6 col-lg-3 col-md-6 col-xl-3">
           <div class="card card-block">
-            <a href="http://litenet.com.tw/" class="sponsors litenet"></a>
+            <a href="http://litenet.com.tw/" class="sponsors litenet" style="transform: scale(0.5)"></a>
           </div>
         </div>
         {{-- <div class="col-4 col-lg-2 col-md-4 col-xl-2">

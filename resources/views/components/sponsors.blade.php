@@ -24,10 +24,10 @@
         </div>
         
 
-        <div class="col-0 col-lg-1 col-sm-0 col-xl-1">
+        {{-- <div class="col-0 col-lg-1 col-sm-0 col-xl-1">
           <div class="card card-block">
           </div>
-        </div>
+        </div> --}}
         <div class="col-12 col-lg-4 col-sm-12 col-xl-4">
            {{-- <a href="http://smarthome.myvita.com.tw" class="sponsors litenet"></a> --}}
           <div class="card card-block">
@@ -41,14 +41,14 @@
         </div>
         <div class="col-12 col-lg-4 col-sm-12 col-xl-4">
           <div class="card card-block">
-            <a href="https://www.moshi.com/tw" class="sponsors cvicloud"></a>
+            <a href="https://www.cvicloud.com/zh-cht/" class="sponsors cvicloud"></a>
           </div>
         </div>
 
-        <div class="col-0 col-lg-1 col-sm-0 col-xl-1">
+        {{-- <div class="col-0 col-lg-1 col-sm-0 col-xl-1">
           <div class="card card-block">
           </div>
-        </div>
+        </div> --}}
         <div class="col-4 col-lg-2 col-md-4 col-xl-2">
           <div class="card card-block">
             <a href="http://www.jbl-tw.com/" class="sponsors jbl"></a>

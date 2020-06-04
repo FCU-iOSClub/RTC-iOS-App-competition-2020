@@ -51,12 +51,12 @@
         </div> --}}
         <div class="col-3 col-lg-3 col-md-3 col-xl-3">
           <div class="card card-block">
-            <a href="http://www.jbl-tw.com/" class="sponsors jbl"></a>
+            <a href="http://www.jbl-tw.com/" class="sponsors jbl" style="transform: scale(0.7)"></a>
           </div>
         </div>
         <div class="col-3 col-lg-3 col-md-3 col-xl-3">
           <div class="card card-block">
-            <a href="https://tw.pqigroup.com/" class="sponsors pqi"></a>
+            <a href="https://tw.pqigroup.com/" class="sponsors pqi" style="transform: scale(1.2)"></a>
           </div>
         </div>
         <div class="col-3 col-lg-3 col-md-3 col-xl-3">
@@ -76,12 +76,12 @@
         </div>
         <div class="col-3 col-lg-3 col-md-3 col-xl-3">
           <div class="card card-block">
-            <a href="http://vago.global/" class="sponsors vago"></a>
+            <a href="http://vago.global/" class="sponsors vago" style="transform: scale(1.2)"></a>
           </div>
         </div>
         <div class="col-3 col-lg-3 col-md-3 col-xl-3">
           <div class="card card-block">
-            <a href="http://smarthome.myvita.com.tw/" class="sponsors infinite"></a>
+            <a href="http://smarthome.myvita.com.tw/" class="sponsors infinite" style="transform: scale(0.7)"></a>
           </div>
         </div>
         {{-- <div class="col-4 col-lg-2 col-md-4 col-xl-2">

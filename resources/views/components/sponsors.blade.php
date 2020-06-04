@@ -41,7 +41,7 @@
         </div>
         <div class="col-12 col-lg-4 col-sm-12 col-xl-4">
           <div class="card card-block">
-            <a href="https://www.cvicloud.com/zh-cht/" class="sponsors cvicloud"></a>
+            <a href="https://www.cvicloud.com/zh-cht/" class="sponsors cvicloud" style="transform: scale(1.3);"></a>
           </div>
         </div>
 

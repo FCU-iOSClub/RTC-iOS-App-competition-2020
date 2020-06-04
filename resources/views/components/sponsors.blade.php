@@ -56,7 +56,7 @@
         </div>
         <div class="col-3 col-lg-3 col-md-3 col-xl-3">
           <div class="card card-block">
-            <a href="https://tw.pqigroup.com/" class="sponsors pqi" style="transform: scale(1.2)"></a>
+            <a href="https://tw.pqigroup.com/" class="sponsors pqi" style="transform: scale(0.7)"></a>
           </div>
         </div>
         <div class="col-3 col-lg-3 col-md-3 col-xl-3">

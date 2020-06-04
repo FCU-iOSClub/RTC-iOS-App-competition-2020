@@ -49,37 +49,37 @@
           <div class="card card-block">
           </div>
         </div> --}}
-        <div class="col-3 col-lg-3 col-md-3 col-xl-3">
+        <div class="col-6 col-lg-3 col-md-6 col-xl-3">
           <div class="card card-block">
             <a href="http://www.jbl-tw.com/" class="sponsors jbl" style="transform: scale(0.7)"></a>
           </div>
         </div>
-        <div class="col-3 col-lg-3 col-md-3 col-xl-3">
+        <div class="col-6 col-lg-3 col-md-6 col-xl-3">
           <div class="card card-block">
             <a href="https://tw.pqigroup.com/" class="sponsors pqi" style="transform: scale(0.7)"></a>
           </div>
         </div>
-        <div class="col-3 col-lg-3 col-md-3 col-xl-3">
+        <div class="col-6 col-lg-3 col-md-6 col-xl-3">
           <div class="card card-block">
             <a href="http://www.elecom.com.tw/" class="sponsors elecom"></a>
           </div>
         </div>
-        <div class="col-3 col-lg-3 col-md-3 col-xl-3">
+        <div class="col-6 col-lg-3 col-md-6 col-xl-3">
           <div class="card card-block">
             <a href="https://www.spigen.com.tw/" class="sponsors spigen"></a>
           </div>
         </div>
-        <div class="col-3 col-lg-3 col-md-3 col-xl-3">
+        <div class="col-6 col-lg-3 col-md-6 col-xl-3">
           <div class="card card-block">
             <a href="https://tw.gigastone.com/" class="sponsors gigastone"></a>
           </div>
         </div>
-        <div class="col-3 col-lg-3 col-md-3 col-xl-3">
+        <div class="col-6 col-lg-3 col-md-6 col-xl-3">
           <div class="card card-block">
             <a href="http://vago.global/" class="sponsors vago" style="transform: scale(1.2)"></a>
           </div>
         </div>
-        <div class="col-3 col-lg-3 col-md-3 col-xl-3">
+        <div class="col-6 col-lg-3 col-md-6 col-xl-3">
           <div class="card card-block">
             <a href="http://smarthome.myvita.com.tw/" class="sponsors infinite" style="transform: scale(0.7)"></a>
           </div>
@@ -89,7 +89,7 @@
             <a href="http://maxmikeco.com/" class="sponsors laut"></a>
           </div>
         </div> --}}
-        <div class="col-3 col-lg-3 col-md-3 col-xl-3">
+        <div class="col-6 col-lg-3 col-md-6 col-xl-3">
           <div class="card card-block">
             <a href="http://litenet.com.tw/" class="sponsors litenet"></a>
           </div>

@@ -14,12 +14,12 @@
         </div>
         <div class="col-12 col-lg-4 col-md-12 col-xl-4">
           <div class="card card-block">
-            <a href="https://www.studioa.com.tw/categories/uag" class="sponsors uag" style="transform: scale(0.5)"></a>
+            <a href="https://www.facebook.com/UAGTAIWAN?locale=zh_TW" class="sponsors uag" style="transform: scale(0.5)"></a>
           </div>
         </div>
         <div class="col-12 col-lg-4 col-md-12 col-xl-4">
           <div class="card card-block">
-            <a href="https://rhinoshield.tw" class="sponsors rhino" style="transform: scale(1.25)"></a>
+            <a href="https://rhinoshield.tw/pages/solidsuit" class="sponsors rhino" style="transform: scale(1.25)"></a>
           </div>
         </div>
         
@@ -91,7 +91,7 @@
         </div> --}}
         <div class="col-6 col-lg-3 col-md-6 col-xl-3">
           <div class="card card-block">
-            <a href="http://litenet.com.tw/" class="sponsors litenet" style="transform: scale(0.5)"></a>
+            <a href="http://smarthome.myvita.com.tw" class="sponsors litenet" style="transform: scale(0.5)"></a>
           </div>
         </div>
         {{-- <div class="col-4 col-lg-2 col-md-4 col-xl-2">

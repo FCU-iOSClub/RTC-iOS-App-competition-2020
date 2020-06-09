@@ -84,6 +84,8 @@ Route::prefix('admin')->namespace('Admin')->group(function () {
         Route::get('qualifiers/full/download', 'TeamController@qualifiersDownload')->name('admin.team.qualifiers.download');
         Route::get('qualifiers/form/download', 'TeamController@qualifiersFormDownload')->name('admin.team.qualifiers.form.download');
         Route::get('qualifiers/app/list', 'QualifiersAppController@index')->name('admin.team.qualifiers.app.list');
+        Route::get('qualifiers/proposal/list', 'QualifiersAppController@proposalIndex')->name('admin.team.qualifiers.proposal.list');
+        Route::get('qualifiers/proposal/download/{id}', 'QualifiersAppController@proposalDownload')->name('admin.team.qualifiers.proposal.download');
         Route::get('qualifiers/app/download/{id}', 'QualifiersAppController@download')->name('admin.team.qualifiers.app.download');
     });
     Route::prefix('setting')->group(function () {

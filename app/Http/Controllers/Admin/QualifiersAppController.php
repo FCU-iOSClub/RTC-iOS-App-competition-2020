@@ -44,7 +44,7 @@ class QualifiersAppController extends Controller
      */
     public function index()
     {
-        $users = User::whereVerify(true)->whereIn('id', [10, 20, 27, 58, 60, 62, 69, 73, 98, 108, 118, 119, 120, 122, 123, 127, 160, 162, 228, 234])->get();
+        $users = User::whereVerify(true)->get();
         $existsUsers = collect();
         $users->map(function ($e) use ($existsUsers) {
             if (Storage::exists($e->id.'/app.zip')) {
@@ -57,6 +57,20 @@ class QualifiersAppController extends Controller
         ]);
     }
 
+    public function proposalIndex()
+    {
+        $users = User::whereVerify(true)->get();
+        $existsUsers = collect();
+        $users->map(function ($e) use ($existsUsers){
+            if (Storage::exists($e->id.'/proposal.pdf')) {
+                $existsUsers->push($e->id);
+                return $e->id;
+            }
+        });
+        return view('admin.checkProposallist')->with([
+            'users' => $existsUsers,
+        ]);
+    }
     /**
      * render team list view.
      *
@@ -83,7 +97,10 @@ class QualifiersAppController extends Controller
 
         return Storage::download("$id/app.zip", "team_$id._$timeString.zip");
     }
-
+    public function proposalDownload($id)
+    {
+        return Storage::download("$id/proposal.pdf", "$id-proposal.pdf");
+    }
     /**
      * qualifiers app download.
      *

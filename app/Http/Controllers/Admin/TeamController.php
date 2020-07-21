@@ -159,7 +159,7 @@ class TeamController extends Controller
     public function qualifiersAppDownload()
     {
         $filename = 'qualifiers_app';
-        $users = User::whereVerify(true)->whereIn('id', [10, 20, 27, 58, 60, 62, 69, 73, 98, 108, 118, 119, 120, 122, 123, 127, 160, 162, 228, 234])->get();
+        $users = User::whereVerify(true)->whereIn('id', [10, 13, 17, 42, 77, 80, 101, 117, 120, 123, 124, 131, 132, 133, 134, 140, 141, 142, 156, 163, 166, 172])->get();
         $directorys = $users->map(function ($e) {
             $data = null;
             if (Storage::exists($e->id.'/app.zip')) {

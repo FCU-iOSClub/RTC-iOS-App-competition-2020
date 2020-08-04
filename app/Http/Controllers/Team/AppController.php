@@ -63,7 +63,7 @@ class AppController extends Controller
             return redirect()->back()->withErrors(['msg'=>'不在開放時間內！']);
         } else {
             $request->validate([
-                'app' => 'required|mimes:zip|mimetypes:application/zip, application/octet-stream, application/x-zip-compressed, multipart/x-zip|max:2548576', //default 1048576
+                'app' => 'required|mimes:zip|mimetypes:application/zip, application/octet-stream, application/x-zip-compressed, multipart/x-zip|max:5120000', //default 1048576
             ]);
             $request->app->storeAs(auth()->user()->id, 'app.zip');
             Notification::route('mail', 'stacse@straighta.com.tw')
